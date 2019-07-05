@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#gameBoard{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 10px solid black;
+  height: 900px;
+  width: 900px;
+  margin: auto;
+}
+
+#mainBox{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+  height: 296px;
+  width: 296px;
+  border: 2px solid black;
+}
